@@ -1,0 +1,52 @@
+name: abdallah_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  pin_input_text_field: 4.1.0
+  flutter_svg_provider: ^1.0.3
+  flutter_rating_bar: ^4.0.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Cairo
+      fonts: 
+        - asset: assets/fonts/CairoBold.ttf
+          weight: 700
+    - family: GE Dinar One
+      fonts: 
+        - asset: assets/fonts/GEDinarOneBold.ttf
+          weight: 700
+    - family: Noto Kufi Arabic
+      fonts: 
+        - asset: assets/fonts/NotoKufiArabicBold.ttf
+          weight: 700
+        - asset: assets/fonts/NotoKufiArabicMedium.ttf
+          weight: 500
+        - asset: assets/fonts/NotoKufiArabicRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoKufiArabicSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/NotoKufiArabicLight.ttf
+          weight: 300
+    - family: Calibri
+      fonts: 
+        - asset: assets/fonts/Calibri.ttf
+          weight: 400
